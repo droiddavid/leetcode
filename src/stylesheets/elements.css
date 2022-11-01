@@ -1,0 +1,49 @@
+a {
+	border-radius: 20px;
+}
+
+input[type="button"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="submit"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+select,
+	.mpkButton, 
+	.contact form input, 
+	.contact form textarea {
+	width: 100%;
+	padding: 1rem;
+	border: 1px solid #00833b;
+	border-radius: 25px;
+	margin-bottom: 2rem;
+}
+
+input[type="text"] {
+	border: 2px solid darkgreen;
+}
+
+li {
+	width: 100%;
+}
+
+.listitem {
+	display: grid;
+	grid-template-columns: fit-content(100%) auto fit-content(100%);
+	grid-gap: 10px;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+textarea {
+	margin-bottom: 2rem;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 2rem;
+}
